@@ -1,6 +1,8 @@
 :root{
     --strong-gray:#2C3E50;
     --green:#30BC9C;
+    --gray:#3A546D;
+    --white:#fff;
 }
 img{
     max-width: 100%;
@@ -25,4 +27,16 @@ height: 50px;
     width: 100%;
     max-width: 1000px;
     margin: 0 auto;
+  }
+  #conctact .ms_comtainer{
+    background-color: bisque;
+    height: 300px;
+  }
+  #footer{
+    background-color: var(--gray);
+  }
+  #copyright{
+    background-color: var(--strong-gray);
+    color: var(--white);
+    text-align: center;
   }
