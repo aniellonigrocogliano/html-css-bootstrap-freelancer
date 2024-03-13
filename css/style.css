@@ -1,0 +1,30 @@
+:root{
+    --strong-gray:#2C3E50;
+    --green:#30BC9C;
+}
+img{
+    max-width: 100%;
+}
+.ms_nav{
+background-color: var(--strong-gray);
+height: 50px;
+}
+#jumbo{
+    background-color: var(--green);
+    height: 300px;
+}
+#portfolio{
+
+}
+.ms_col{
+    background-color: blue;
+    height: 300px;
+    border: 3px solid red;
+}
+#portfolio .ms_card{
+    background-color: aquamarine;
+    height: 250px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
