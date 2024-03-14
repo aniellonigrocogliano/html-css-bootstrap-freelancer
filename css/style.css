@@ -136,8 +136,30 @@ header {
 #footer {
     background-color: var(--gray);
 }
+#footer{
+    font-size: 1rem;
+}
+#footer p{
+    font-weight: 700;
+}
+.ms-social i{
+    border: 1px solid var(--white);
+    font-size: 1.2rem;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+#footer a{
+    text-decoration: none;
+    color: var(--green);
+}
 
-/* End footer */
 #copyright {
     background-color: var(--strong-gray);
 }
+/* End footer */
