@@ -4,42 +4,62 @@
     --green: #30BC9C;
     --gray: #3A546D;
     --white: #fff;
-    --black: #000
+    --black: #000;
+    --lith-gray:#888888;
+    --strong-green: #166653;
 }
 
-/* end variable */
+/* End variable */
 /* RESET */
 img {
     max-width: 100%;
 }
 
 /* END RESET */
-/* utility */
+/* Utility */
 .ms_comtainer {
     width: 100%;
-    max-width: 1000px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
 .ms_style-star {
     font-size: 2.5rem;
-    padding: 10px;
+    margin: 10px;
     font-weight: 900;
 }
 
-.ms-text-center {
-    text-align: center;
+h2{
+    font-size: 2rem;
+    padding: 10px;
 }
-
-/* end utility */
-/* nav */
-.ms_nav {
-    background-color: var(--strong-gray);
+/* End utility */
+/* Nav */
+header {
+    
     height: 50px;
 }
+.bg-body-tertiary{
+background-color: var(--strong-gray)!important;
+}
+.nav-link{
+    color: var(--white);
+}
+.navbar-brand{
+    color:var(--white)
+}
+.ms_color{
+    color: var(--lith-gray)!important;
+    border-color: var(--white)!important;
+}
+.ms-nav{
+    
+    color: var(--white);
+    font-weight: 800;
+}
 
-/* end nav */
-/* jumbo */
+/* End nav */
+/* Jumbo */
 #jumbo img {
     width: 200px;
     height: auto;
@@ -48,7 +68,6 @@ img {
 
 #jumbo {
     background-color: var(--green);
-    text-align: center;
     color: var(--white);
 }
 
@@ -60,53 +79,57 @@ img {
 #jumbo h4 {
     font-size: 1rem;
     padding: 10px;
+    padding-bottom: 20PX;
 }
 
 
 /* End jumbo */
 /* Portfolio */
 #portfolio h2 {
-    font-size: 2rem;
-    padding: 10px;
+
     color: var(--black);
 }
 
 #portfolio img {
     border-radius: 8px;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
 
-/* End Portfolio */
+/* End portfolio */
 /* About */
 #about {
     background-color: var(--green);
-    color: var(--white);
 }
-#about h2{
-    font-size: 2rem;
-    padding: 10px;
-}
-.ms_button{
+
+
+.ms_button {
     padding-bottom: 20px;
 }
-/* end About */
 
-/* conctact */
-#conctact .ms_comtainer {
-    background-color: bisque;
-    height: 300px;
+/* End about */
+
+/* Conctact */
+.form-control{
+    border: 1px solid var(--strong-gray);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+
 }
-
-/* AEnd conctact */
-/* footer */
+.btn-primary{
+    background-color: var(--green);
+    border:0px;
+}
+.btn-primary:hover{
+    background-color: var(--strong-green);
+}
+/* End conctact */
+/* Footer */
 #footer {
     background-color: var(--gray);
 }
 
-/* end footer */
+/* End footer */
 #copyright {
     background-color: var(--strong-gray);
-    color: var(--white);
-    text-align: center;
 }
