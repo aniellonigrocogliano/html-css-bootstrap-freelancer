@@ -5,7 +5,7 @@
     --gray: #3A546D;
     --white: #fff;
     --black: #000;
-    --lith-gray:#888888;
+    --lith-gray: #888888;
     --strong-green: #166653;
 }
 
@@ -29,32 +29,37 @@ img {
     font-weight: 900;
 }
 
-h2{
+h2 {
     font-size: 2rem;
     padding: 10px;
 }
+
 /* End utility */
 /* Nav */
 header {
-    
+
     height: 50px;
 }
-.bg-body-tertiary{
-background-color: var(--strong-gray)!important;
+
+.bg-body-tertiary {
+    background-color: var(--strong-gray) !important;
 }
-.nav-link{
+
+.nav-link {
     color: var(--white);
 }
-.navbar-brand{
-    color:var(--white)
+
+.navbar-brand {
+    color: var(--white)
 }
-.ms_color{
-    color: var(--lith-gray)!important;
-    border-color: var(--white)!important;
+
+.navbar-toggler {
+    color: var(--lith-gray) !important;
+    border-color: var(--white) !important;
 }
-.ms-nav{
-    
-    color: var(--white);
+
+.ms-nav {
+
     font-weight: 800;
 }
 
@@ -108,7 +113,7 @@ background-color: var(--strong-gray)!important;
 /* End about */
 
 /* Conctact */
-.form-control{
+.form-control {
     border: 1px solid var(--strong-gray);
     border-top: 0px;
     border-right: 0px;
@@ -116,13 +121,16 @@ background-color: var(--strong-gray)!important;
     border-radius: 0px;
 
 }
-.btn-primary{
+
+.btn-primary {
     background-color: var(--green);
-    border:0px;
+    border: 0px;
 }
-.btn-primary:hover{
+
+.btn-primary:hover {
     background-color: var(--strong-green);
 }
+
 /* End conctact */
 /* Footer */
 #footer {
