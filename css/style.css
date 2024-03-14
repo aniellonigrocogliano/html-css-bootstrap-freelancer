@@ -4,7 +4,7 @@
     --green: #30BC9C;
     --gray: #3A546D;
     --white: #fff;
-    --black:#000
+    --black: #000
 }
 
 /* end variable */
@@ -20,14 +20,17 @@ img {
     max-width: 1000px;
     margin: 0 auto;
 }
-.ms_style-star{
+
+.ms_style-star {
     font-size: 2.5rem;
     padding: 10px;
     font-weight: 900;
 }
-.ms-text-center{
+
+.ms-text-center {
     text-align: center;
 }
+
 /* end utility */
 /* nav */
 .ms_nav {
@@ -42,16 +45,19 @@ img {
     height: auto;
     padding: 15px;
 }
+
 #jumbo {
     background-color: var(--green);
     text-align: center;
     color: var(--white);
 }
-#jumbo h1{
+
+#jumbo h1 {
     font-size: 3rem;
     padding: 10px;
 }
-#jumbo h4{
+
+#jumbo h4 {
     font-size: 1rem;
     padding: 10px;
 }
@@ -59,11 +65,12 @@ img {
 
 /* End jumbo */
 /* Portfolio */
-#portfolio h2{
+#portfolio h2 {
     font-size: 2rem;
     padding: 10px;
     color: var(--black);
 }
+
 #portfolio img {
     border-radius: 8px;
     margin-top: 15px;
@@ -74,8 +81,15 @@ img {
 /* About */
 #about {
     background-color: var(--green);
+    color: var(--white);
 }
-
+#about h2{
+    font-size: 2rem;
+    padding: 10px;
+}
+.ms_button{
+    padding-bottom: 20px;
+}
 /* end About */
 
 /* conctact */
